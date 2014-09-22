@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Holo_Light" parent="android:Theme.Holo.Light">
+        <item name="pageBackground">@style/page_background_wh</item>
+        <item name="textSubheader">@style/text_subheader_wh</item>
+        <item name="textLarge">@style/text_large_wh</item>
+        <item name="textRegular">@style/text_regular_wh</item>
+        <item name="whiteBackground">@style/white_background_wh</item>
+        <item name="button">@style/button_wh</item>
+        <item name="spinner">@style/spinner_wh</item>
+        <item name="horizontal_line">@style/horizontal_line_wh</item>
+    </style>
+
+    <style name="Theme.Console" parent="android:Theme.Holo">
+        <item name="pageBackground">@style/page_background_bl</item>
+        <item name="textSubheader">@style/text_subheader_bl</item>
+        <item name="textLarge">@style/text_large_bl</item>
+        <item name="textRegular">@style/text_regular_bl</item>
+        <item name="whiteBackground">@style/white_background_bl</item>
+        <item name="button">@style/button_bl</item>
+        <item name="spinner">@style/spinner_bl</item>
+    </style>
+
+    <style name="Theme.Navy" parent="android:Theme.Holo">
+        <item name="pageBackground">@style/page_background_blue</item>
+        <item name="textSubheader">@style/text_subheader_blue</item>
+        <item name="textLarge">@style/text_large_blue</item>
+        <item name="textRegular">@style/text_regular_blue</item>
+        <item name="spinner">@style/spinner_blue</item>
+        <item name="whiteBackground">@style/white_background_blue</item>
+        <item name="android:actionBarStyle">@style/action_bar_blue</item>
+        <item name="button">@style/button_blue</item>
+    </style>
+
+</resources>
